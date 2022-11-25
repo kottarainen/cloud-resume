@@ -178,6 +178,9 @@ p {
   
 }
 
+.certifications ul {
+  font-size: 15px
+}
 
 .container .right-side {
   position: relative;
