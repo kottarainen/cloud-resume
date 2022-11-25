@@ -83,7 +83,7 @@ body {
   display: inline-block;
   width: 30px;
   font-size: 17px;
-  color: black;
+  color: #848c90;
 }
 
 .contact-info ul li span {
@@ -97,7 +97,7 @@ body {
 }
 
 .contact-info.education h5 {
-  color: black;
+  color: #848c90;
   font-weight: 500;
 }
 
