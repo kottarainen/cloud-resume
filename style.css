@@ -149,11 +149,16 @@ p {
   font-weight: 600;
 }
 
+
 .about .box .text h4 {
   text-transform: uppercase;
   font-size: 16px;
+  padding: 0 0 5px;
 } 
 
+.about .box .text li {
+  font-size: 15px;
+} 
 
 
 .skills .box {
