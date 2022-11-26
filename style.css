@@ -1,189 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*
-
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body {
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  min-height: 1000px;
-  margin: 50px;
-  background: white;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgba(0,0,0,0.4);
-  border-radius: 15px;
-    overflow: hidden;
-    perspective: 1px;
-}
-
-.container .left-side {
-  position: relative;
-  background: silver;
-  padding: 40px;
-}
-
-.profile-text {
-  position: relative;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
-  border-bottom: 2px solid rgba(255,255,255,0.2)
-}
-
-
-.profile-text h2 {
-  color: white;
-  font-size: 1.5em;
-  margin-top: 20px;
-  text-transform: uppercase;
-  text-align: left;
-  font-weight: 600;
-  line-height: 1.4em;
-}
-
-.contact-info {
-  padding-top: 40px;
-}
-.title {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
-.contact-info ul {
-  position: relative;
-}
-
-.contact-info ul li {
-  position: relative;
-  list-style: none;
-  margin: 10px 0;
-  cursor: pointer;
-  
-}
-.contact-info ul li .icon {
-  display: inline-block;
-  width: 30px;
-  font-size: 17px;
-  color: #848c90;
-}
-
-.contact-info ul li span {
-  color: white;
-  font-weight: 300;
-  font-size: 13px;
-}
-
-.contact-info.education li {
-  margin-bottom: 15px;
-}
-
-.contact-info.education h5 {
-  color: #848c90;
-  font-weight: 500;
-}
-
-.contact-info.education h4:nth-child(2)
-{
-  color: white;
-  font-weight: 500;
-}
-
-.contact-info.education h4 {
-  color: white;
-  font-weight: 300;
-}
-
-.contact-info.language .text {
-  font-size: 14px;
-}
-
-.about {
-  margin-bottom: 50px;
-}
-
-.title2 {
-  color: black;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
-p {
-  color: silver;
-}
-
-.about .box {
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0;
-  column-gap: 20px;
-}
-
-.about .box .year_company {
-  min-width: 150px;
-  
-}
-
-.about .box .year_company h5 {
-  text-transform: uppercase;
-  color: #848c90;
-  font-weight: 600;
-}
-
-
-.about .box .text h4 {
-  text-transform: uppercase;
-  font-size: 16px;
-  padding: 0 0 5px;
-} 
-
-.about .box .text li {
-  font-size: 15px;
-} 
-
-
-.skills .box {
-  position: relative;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  justify-content: center;
-  align-items: center;
-}
-
-.skills .box h4 {
-  text-transform: uppercase;
-  color: black;
-  font-weight: 400;
-  padding: 0 0 0 0;
-  
-}
-
-.certifications ul {
-  font-size: 15px
-}
-
-.container .right-side {
-  position: relative;
-  background: white;
-  padding: 40px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariya's CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+      <div class="profile-text">
+        <h2>Maryia Shpakouskaya<br></h2>
+      </div>
+      <div class='contact-info'>
+        <h3 class="title">Contact info</h3>
+        <ul>
+          <li>
+            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <span class="text">+370 623 65 664</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="text">maria.shpakouskaya@gmail.com</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+            <span class="text">Maryia Shpakouskaya</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <span class="text">Vilnius, Lithuania</span>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div class='contact-info education'>
+        <h3 class="title">Education</h3>
+        <ul>
+          <li>
+            <h5>2021 - 2025</h5> 
+            <h4>Bachelor degree in Information and Communication Technology</h4>
+            <h4>VILNIUS TECH</h4>
+          </li>  
+        </ul>
+      </div>
+      
+      <div class='contact-info language'>
+        <h3 class="title">Languages</h3>
+        <ul>
+          <li>
+            <span class="text">English - professional</span>
+          <li/>
+          <li>
+            <span class="text">Russian - native</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+      
+    <div class="right-side">
+      <div class="about">
+        <h2 class="title2">Experience</h2>
+        <div class="box">
+          <div class="year_company">
+            <h5>06/2022 - 11/2022</h5>
+            <h5>Luminor Group</h5>
+          </div>
+          <div class="text">
+            <h4>System Analyst Intern</h4>
+            <p>
+            <ul>
+              <li>
+                Analyzing technical and functional requirements
+              </li>
+              <li>
+                Assisting with migrating to other platforms (banking, DevOps)
+              </li>
+              <li>
+                Collecting and analyzing metrics for systems
+              </li>
+              <li>
+                Preparing reports
+              </li>
+              <li>
+                Troubleshooting
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="year_company">
+            <h5>03/2022 - 05/2022</h5>
+            <h5>Devbridge</h5>
+          </div>
+          <div class="text">
+            <h4>Full Stack Intern</h4>
+            <p>
+            <ul>
+              <li>
+                Learned ReactJS, .NET, SQL.
+              </li>
+              <li>
+                Worked on a full-stack web development project in a team using Git, Bitbucket, and Agile methodology principles.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+     <div class="about skills">
+        <h2 class="title2">Skills</h2>
+        <div class="box">
+          <h4>SQL</h4>
+        </div>
+        <div class="box">
+          <h4>AWS</h4>
+        </div>
+        <div class="box">
+          <h4>Linux/Bash</h4>
+        </div>
+        <div class="box">
+          <h4>Python</h4>
+        </div>
+        <div class="box">
+          <h4>HTML/CSS</h4>
+        </div>
+      </div>
+      
+      <div class="about certifications">
+        <h2 class="title2">Certifications</h2>
+        <ul>
+          <div>
+            AWS Cloud Practitioner
+          </div>
+          <div>
+            Linux Essentials - Cisco Networking Academy
+          </div>
+        </ul>
+      </div> 
+      
+      
+    </div>
+  </div> 
+</body>
+</html>
