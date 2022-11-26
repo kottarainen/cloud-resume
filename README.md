@@ -6,8 +6,8 @@
 - [x] HTML
 - [x] CSS
 - [x] S3 static website
-- [ ] HTTPS - Amazon Cloudfront
-- [ ] DNS domain name
+- [x] HTTPS - Amazon Cloudfront
+- [x] DNS domain name
 - [ ] Visitor counter - JS
 - [ ] Database - Dynamo DB
 - [ ] API
