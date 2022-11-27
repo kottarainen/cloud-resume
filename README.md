@@ -9,7 +9,7 @@
 - [x] HTTPS - Amazon Cloudfront
 - [x] DNS domain name
 - [ ] Visitor counter - JS
-- [ ] Database - Dynamo DB
+- [x] Database - Dynamo DB
 - [ ] API
 - [ ] Python
 - [ ] Tests
