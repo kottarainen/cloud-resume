@@ -11,7 +11,7 @@
 - [ ] Visitor counter - JS
 - [x] Database - Dynamo DB
 - [x] API
-- [ ] Python
+- [x] Lambda function - Python
 - [ ] Tests
 - [ ] IaC 
 - [ ] Source Control - Github repo
