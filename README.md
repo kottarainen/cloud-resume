@@ -10,7 +10,7 @@
 - [x] DNS domain name
 - [ ] Visitor counter - JS
 - [x] Database - Dynamo DB
-- [ ] API
+- [x] API
 - [ ] Python
 - [ ] Tests
 - [ ] IaC 
