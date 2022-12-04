@@ -8,7 +8,7 @@
 - [x] S3 static website
 - [x] HTTPS - Amazon Cloudfront
 - [x] DNS domain name
-- [ ] Visitor counter - JS
+- [x] Visitor counter - JS
 - [x] Database - Dynamo DB
 - [x] API
 - [x] Lambda function - Python
