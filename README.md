@@ -18,3 +18,7 @@
 - [ ] CI/CD Backend 
 - [ ] CI/CD Frontend
 - [ ] Blog post
+
+## Optional
+
+- [x] Monitoring - CloudWatch 
