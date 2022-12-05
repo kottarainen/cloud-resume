@@ -22,3 +22,4 @@
 ## Optional
 
 - [x] Monitoring - CloudWatch 
+- [x] IAM Access Analyzer
