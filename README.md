@@ -21,5 +21,5 @@
 
 ## Optional
 
-- [x] Monitoring - CloudWatch 
+- [x] Monitoring - CloudWatch, API limits
 - [x] IAM Access Analyzer
