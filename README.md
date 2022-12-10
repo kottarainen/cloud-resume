@@ -17,7 +17,7 @@
 - [ ] Source Control - Github repo
 - [ ] CI/CD Backend 
 - [ ] CI/CD Frontend
-- [ ] Blog post
+- [x] Blog post
 
 ## Optional
 
